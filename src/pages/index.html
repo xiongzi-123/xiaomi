@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米商城</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="../sass/xiao.css">
+
+    <style>
+        .swiper-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .swiper-container {
+            --swiper-theme-color: #ff6600;
+            /* 设置Swiper风格 */
+            --swiper-navigation-color: #ffffff;
+            /* 单独设置按钮颜色 */
+            --swiper-navigation-size: 34px;
+            /* 设置按钮大小 */
+        }
+
+        .ban-con ul {
+
+            background: rgba(164, 155, 155, 1);
+
+            z-index: 21;
+        }
+
+        .swiper-button-prev,
+        .swiper-container-rtl .swiper-button-next {
+            left: 243px;
+            right: auto;
+        }
+
+        .swiper-container-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 18px;
+            left: 475px;
+            width: 100%;
+        }
+
+        .ban-con ul {
+            background: rgba(164, 155, 155, 1);
+            z-index: 21;
+            opacity: 0.7;
+        }
+
+        .swiper-slide,
+        .swiper-slide-active {
+            width: 1226px;
+        }
+
+        /* .active {
+      background-color: pink;
+    } */
+    </style>
+</head>
+
+<body>
+    <!-- head -->
+    <div id="head">
+        <div class="head-con">
+            <ul>
+                <li style="border-left:none;"><a href="">小米商城</a></li>
+                <li><a href="">MIUI</a></li>
+                <li><a href="">loT</a></li>
+                <li><a href="">云服务</a></li>
+                <li><a href="">金融</a></li>
+                <li><a href="">有品</a></li>
+                <li><a href="">小爱开放平台</a></li>
+                <li><a href="">企业团购</a></li>
+                <li><a href="">资质证照</a></li>
+                <li><a href="">协议规则</a></li>
+                <li><a href="">下载app</a></li>
+                <li style="border-right:none;"><a href="">Select Location</a></li>
+            </ul>
+            <div class="head-conr">
+                <ul>
+                    <li style="border-left:none;"><a href="">登录</a></li>
+                    <li><a href="">注册</a></li>
+                    <li style="border-left:none; margin: 0 9px;"><a href="">消息通知</a></li>
+                </ul>
+            </div>
+            <div class="head-cong">
+                <a href="">
+                    <span>购物车&nbsp;（0）</span>
+                    <i style="border-top: none;">购物车中还没有商品，赶紧选购吧!</i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- daohang -->
+    <div id="daohang">
+        <div class="dao-con">
+            <div class="dao-logo">
+
+                <a href=""><img src="../images/logo_03.jpg" alt=""></a>
+            </div>
+            <ul class="dao-conu">
+              
+            </ul>
+
+
+
+
+
+
+
+            <div class="dao-ss">
+                <input type="text" name="" id="" style="border-right: 1px solid #ccc;">
+                <a href=""><span class="dao-ss1">小米9 Pro 5G</span></a>
+                <a href=""><span class="dao-ss2">Redmi Note8</span></a>
+                <ul style="border-top: none;">
+                    <li><a href="">小米9</a></li>
+                    <li><a href="">Redmi K20 pro</a></li>
+                    <li><a href="">Redmi K20</a></li>
+                    <li><a href="">Redmi Note 7 Pro</a></li>
+                    <li><a href="">Redmi note 7</a></li>
+                    <li><a href="">小电视4c</a></li>
+                    <li><a href="">电视32英寸</a></li>
+                    <li><a href="">笔记本pro</a></li>
+                    <li><a href="">小爱音箱</a></li>
+                    <li><a href="">净水器</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- 二级菜单 -->
+    <div class="nav_box">
+        <ul class="container">
+            <li>
+                <div>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ddffd7562c54f9166fa876c143ff22.png?thumb=1&w=200&h=138&f=webp&q=90"
+                        alt=""> </div>
+                    <p> 小米手机</p>
+                    <span>1999</span>
+               
+            </li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li style="border: none">6</li>
+        </ul>
+    </div>
+
+
+
+    <!-- banner -->
+    <div id="banner">
+        <div class="ban-con">
+            <div class="ban-lb">
+
+
+
+                <div class="swiper-container swiper-container1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="width: 1226px;"><img src="../images/lb1.webp" alt=""></div>
+
+                        <div class="swiper-slide"><img src="../images/lb2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/lb3.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/lb4.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/lb5.webp" alt=""></div>
+
+
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination swiper-pagination1"></div>
+                    <!-- Add Arrows -->
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <ul class="kk">
+                <li>
+                    <a href="">手机</a>&nbsp;<a href="">电话卡</a>
+                </li>
+                <li>
+                    <a href="">电视</a>&nbsp;<a href="">盒子</a>
+                </li>
+                <li>
+                    <a href="">笔记本</a>&nbsp;<a href="">显示器</a>&nbsp;<a href="">平板</a>
+                </li>
+                <li>
+                    <a href="">家电</a>&nbsp;<a href="">插线板</a>
+                </li>
+                <li>
+                    <a href="">出行</a>&nbsp;<a href="">穿戴</a>
+                </li>
+                <li>
+                    <a href="">智能路</a>&nbsp;<a href="">由器</a>
+                </li>
+                <li>
+                    <a href="">电源</a>&nbsp;<a href="">配件</a>
+                </li>
+                <li>
+                    <a href="">健康</a>&nbsp;<a href="">儿童</a>
+                </li>
+                <li>
+                    <a href="">耳机</a>&nbsp;<a href="">音箱</a>
+                </li>
+                <li>
+                    <a href="">生活</a>&nbsp;<a href="">箱包</a>
+                </li>
+            </ul>
+          
+        </div>
+         <!-- 二级菜单 -->
+         <div class="xxk">
+            <ul class="kk">
+               <li><h2><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=50&h=50&f=webp&q=90" alt=""></h2>
+           <h3>1</h3>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+               <li>6</li>
+               <li>7</li>
+               <li>8</li>
+               <li>9</li>
+               <li>10</li>
+               <li>11</li>
+               <li>12</li>
+               <li>13</li>
+               <li>14</li>
+               <li>15</li>
+               <li>16</li>
+               <li>17</li>
+               <li>18</li>
+               <li>19</li>
+               <li>20</li>
+               <li>21</li>
+               <li>22</li>
+            </ul>
+        </div>
+    </div>
+    <!-- xiaomimiaosha -->
+    <div id="xmms">
+        <div class="xmms-con">
+            <div class="xmms-conl">
+                <div class="xmms-conl1">小米秒杀</div>
+                <div class="xmms-conl1">企业团购</div>
+                <div class="xmms-conl1">F码通道</div>
+                <div class="xmms-conl1">米粉卡</div>
+                <div class="xmms-conl1">以旧换新</div>
+                <div class="xmms-conl1">花费充值</div>
+            </div>
+            <div class="xmms-conc">
+                <img src="../images/ms_03.jpg" alt="">
+            </div>
+            <div class="xmms-conc">
+                <img src="../images/ms_05.jpg" alt="">
+            </div>
+            <div class="xmms-conc">
+                <img src="../images/ms_07.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section>
+        <div class="content-con">
+            <h2 class="content">小米闪购</h2>
+
+            <div class="shop content">
+                <div class="flashsale">
+                    <span>14:00场</span>
+                    <img src="../images/sd_03.jpg" alt="">
+                    <p>距离结束还有</p>
+                    <div class="time">
+                        <span></span>
+                        <i>:</i>
+                        <span></span>
+                        <i>:</i>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="flashlist">
+                    <div class="xmsg-con2" style="border-top:1px solid #83c44e;">
+
+                        <img src="../images/sg_03.jpg" style="width: 160px; height: 160px;" alt="">
+                        <h3 class="title">高品质多功能头戴耳机</h3>
+                        <p class="desc">我的私人KTV</p>
+                        <p class="price">
+                            <span>1999</span>"元"
+
+                            <del>2299元</del>
+                        </p>
+                    </div>
+                    <div class="xmsg-con3" style="border-top:1px solid #83c44e;">
+
+                        <img src="../images/sg_03.jpg" style="width: 160px; height: 160px;" alt="">
+                        <h3 class="title">高品质多功能头戴耳机</h3>
+                        <p class="desc">我的私人KTV</p>
+                        <p class="price">
+                            <span>1999</span>"元"
+
+                            <del>2299元</del>
+                        </p>
+                    </div>
+                    <div class="xmsg-con4" style="border-top:1px solid #83c44e;">
+
+                        <img src="../images/sg_03.jpg" style="width: 160px; height: 160px;" alt="">
+                        <h3 class="title">高品质多功能头戴耳机</h3>
+                        <p class="desc">我的私人KTV</p>
+                        <p class="price">
+                            <span>1999</span>"元"
+
+                            <del>2299元</del>
+                        </p>
+                    </div>
+                    <div class="xmsg-con5" style="border-top:1px solid #83c44e;">
+
+                        <img src="../images/sg_03.jpg" style="width: 160px; height: 160px;" alt="">
+                        <h3 class="title">高品质多功能头戴耳机</h3>
+                        <p class="desc">我的私人KTV</p>
+                        <p class="price">
+                            <span>1999</span>"元"
+
+                            <del>2299元</del>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- logoxm9 -->
+    <div id="logoxm9">
+        <div class="logoxm9-con">
+            <div>
+                <img src="../images/xm9_03.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- shoug -->
+    <div id="shoug">
+        <div class="shoug-con">
+            <div class="shoug-con1">手机</div>
+            <div class="shoug-con2">
+                <img src="../images/shoug_03.jpg" alt="">
+            </div>
+            <div class="shoug-con3">
+                <ul>
+                    <li>
+                        <img src="../images/shoug_06.jpg" alt="">
+                        <br><br><br>
+                        <i>小米CC9 Pro</i>
+                        <em>1亿像素五摄四闪</em>
+                        <b>2799元起<span></span></b></li>
+                    <li> <img src="../images/shoug_08.jpg" alt="">
+                        <br><br><br>
+                        <i>小米9 Pro 5G</i>
+                        <em>5G双卡全网通，骁龙855Plus</em>
+                        <b>3699元起<span></span></b></li>
+                    <li> <img src="../images/shoug_10.jpg" alt="">
+                        <br><br><br>
+                        <i>Redmi 8</i>
+                        <em>5000mAh超长续航</em>
+                        <b>749元起<span>799元起</span></b></li>
+                    <li> <img src="../images/shoug_12.jpg" alt="">
+                        <br><br><br>
+                        <i>Redmi 8A</i>
+                        <em>5000mAh超长续航</em>
+                        <b>699元起<span></span></b></li>
+                    <li> <img src="../images/shoug_18.jpg" alt="">
+                        <br><br><br>
+                        <i>Redmi Note 8 Pro</i>
+                        <em>6400万全场景四摄</em>
+                        <b>4299元起<span>4399元</span></b></li>
+                    <li> <img src="../images/shoug_19.jpg" alt="">
+                        <br><br><br>
+                        <i>Redmi Note 8</i>
+                        <em>千元4800万四摄</em>
+                        <b>999元起<span></span></b></li>
+                    <li> <img src="../images/shoug_20.jpg" alt="">
+                        <br><br><br>
+                        <i>Redmi K20 Pro尊享版</i>
+                        <em>骁龙855 Plus，弹出全面屏</em>
+                        <b>2699元起<span></span></b></li>
+                    <li> <img src="../images/shoug_21.jpg" alt="">
+                        <br><br><br>
+                        <i>Redmi 7</i>
+                        <em>4000mAh超长续航</em>
+                        <b>899元<span>999元</span></b></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- logojd -->
+    <div id="logoxm9">
+        <div class="logoxm9-con">
+            <div>
+                <img src="../images/jd1_03.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- jiadian -->
+    <div id="jiadian">
+        <div class="jiadian-con">
+            <p>家电</p>
+            <ul>
+                <li>
+                    <img src="../images/jd1_06.jpg" alt="" style="position: absolute; top: 0px; left: 0px;">
+                </li>
+                <li>
+                    <img src="../images/jd1_09.jpg" alt="">
+                    <br><br><br>
+                    <i>米家互联网空调C1 (- 级能效)</i>
+                    <em>变频节能省电，自清洁</em>
+                    <b>2599元<span>2799元</span></b></li>
+                </li>
+                <li>
+                    <img src="../images/jd1_11.jpg" alt="">
+                    <br><br><br>
+                    <i>米家空调</i>
+                    <em>出众静音，快速制冷热</em>
+                    <b>1699元<span>1799元</span></b></li>
+                </li>
+                <li>
+                    <img src="../images/jd1_13.jpg" alt="">
+                    <br><br><br>
+                    <i>米家互联网洗烘- -体机Pro 10kg</i>
+                    <em>智能洗烘，省心力</em>
+                    <b>2999元<span></span></b></li>
+                </li>
+                <li>
+                    <img src="../images/jd1_15.jpg" alt="">
+                    <br><br><br>
+                    <i>小米电视4A 32英寸</i>
+                    <em>人工智能系统，高清液品屏</em>
+                    <b>799元<span></span></b></li>
+                </li>
+                <li>
+                    <img src="../images/jd1_22.jpg" alt="" style="position: absolute; top: 0px; left: 0px;">
+                </li>
+                <li>
+                    <img src="../images/jd1_23.jpg" alt="">
+                    <br><br><br>
+                    <i>Redmi全自动波轮洗衣机1A 8kg</i>
+                    <em>一键操作， 父母都爱用</em>
+                    <b>799元<span></span></b></li>
+                </li>
+                <li>
+                    <img src="../images/jd1_24.jpg" alt="">
+                    <br><br><br>
+                    <i>小米全面屏电视E55A</i>
+                    <em>全面屏设计，人工智能语音</em>
+                    <b>1799元<span>2099元</span></b></li>
+                </li>
+                <li>
+                    <img src="../images/jd1_25.jpg" alt="">
+                    <br><br><br>
+                    <i>15.6"四核i7 16G独显512G</i>
+                    <em>全面均衡的国民轻薄本</em>
+                    <b>4699元<span>4899元</span></b></li>
+                </li>
+                <div class="jiadian-con1">
+                    <div class="jiadian-con12" style="text-align: left;"> divAir13.3"2019<br>款</div>
+                    <div class="jiadian-con13" style="text-align: left;">4999元起<span></span></div>
+                </div>
+                <div class="jiadian-con2">
+                    <div class="jiadian-con21">
+                        浏览更多
+                    </div>
+                    <div class="jiadian-con22">
+                        热门
+                    </div>
+
+                </div>
+
+            </ul>
+        </div>
+    </div>
+    <div id="shipin">
+        <div class="shipin-con">
+            <h3>视频</h3>
+            <div><img src="../images/cc_03.jpg" alt="">
+                <p>小米MIX Alpha开箱视频</p>
+            </div>
+            <div><img src="../images/cc_05.jpg" alt="">
+                <p>小米5G新品手机发布会</p>
+            </div>
+            <div><img src="../images/cc_07.jpg" alt="">
+                <p>Redmi Note 8系列发布会</p>
+            </div>
+            <div><img src="../images/cc_09.jpg" alt="">
+                <p>小米电视5创新背后的故事</p>
+            </div>
+        </div>
+    </div>
+    <div id="shouhou">
+        <div class="shouhou-con">
+            <ul>
+                <li>预约维修服务</li>
+                <li>7天无理由退货</li>
+                <li>15天免费换货</li>
+                <li>满150元包邮</li>
+                <li>520余家售后网点</li>
+            </ul>
+        </div>
+    </div>
+    <div id="kefu">
+        <div class="kefu-con">
+            <div class="kefu-conl">
+                <ul>
+                    <li>帮助中心</li><br>
+                    <li>账户管理</li>
+                    <li>购物指南</li>
+                    <li>订单操作</li>
+                </ul>
+                <ul>
+                    <li>服务支持</li><br>
+                    <li>售后政策</li>
+                    <li>自助服务</li>
+                    <li>相关下载</li>
+                </ul>
+                <ul>
+                    <li>线下门店</li><br>
+                    <li>小米之家</li>
+                    <li>服务网点</li>
+                    <li>授权体验店</li>
+                </ul>
+                <ul>
+                    <li>关于小米</li><br>
+                    <li>了解小米</li>
+                    <li>加入小米</li>
+                    <li>投资者关系</li>
+                </ul>
+                <ul>
+                    <li>关注我们</li><br>
+                    <li>新浪微博</li>
+                    <li>官方微信</li>
+                    <li>联系我们</li>
+                </ul>
+                <ul>
+                    <li>特色服务</li><br>
+                    <li>F码通道</li>
+                    <li>礼物码</li>
+                    <li>防伪查询</li>
+                </ul>
+            </div>
+            <div class="kefu-conr">
+                <h3>400-100- 5678</h3>
+                <em> 周一至周日8:00-18:00</em>
+                <em>(仅收市话费)</em>
+                <br>
+                <p> 人工客服</p>
+            </div>
+        </div>
+    </div>
+    <div id="dibu">
+        <div class="dibu-con">
+            <div class="dibu-conl"> </div>
+            <div class="dibu-conr">
+                <ul>
+                    <li style="border-left:none;">小米商城</li>
+                    <li>MIUI</li>
+                    <li>米家</li>
+                    <li>米聊</li>
+                    <li>多看</li>
+                    <li>游戏</li>
+                    <li>路由器</li>
+                    <li>米粉卡</li>
+                    <li>政企服务</li>
+                    <li>小米天猫店</li>
+                    <li>小米集团隐私政策</li>
+                    <li>小米公司儿童信息保护规则</li>
+                    <li>小米商城隐私政策</li>
+                    <li>小米商城用户协议</li>
+                    <li>问题反馈</li>
+                    <li>廉正举报</li>
+                    <li>诚信合规</li>
+                    <li style="border-right:none;">Select Location</li>
+                </ul>
+                <p>&copy;mi. com京ICP证110507号京ICP备10046444号京公网安备11010802020134号京网文[2017]1530-131号</p>
+                <p>(京)网械平台备字(2018) 第00005号互联网药品信息服务资格证(京)非经营性-2014- 0090营业执照医疗器械质量公告</p>
+                <p>增值电信业务许可证网络食品经营备案(京) [2018] WL SPJYBAHF-12食品经营许可证</p>
+                <p>违法和不良信息举报电话: 185-0130-1238 知识产权侵权投诉本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+                <div>
+                    <ul>
+                        <li>
+                            <p>诚信网站</p>
+                            <p>示范企业</p>
+                        </li>
+                        <li>
+                            <p>可信网站</p>
+                            <p>信用评价</p>
+                        </li>
+                        <li>
+                            <p>网上交易</p>
+                            <p>保障中心</p>
+                        </li>
+                        <li>
+                            <p>诚信经营</p>
+                            <p>放心交易</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h2>探索黑科技，小米为发烧而生！</h2>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="../lib/swiper/js/swiper.min.js"></script>
+
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container1', {
+
+            effect: 'fade',
+            //5秒轮播一次
+            autoplay: {
+                delay: 5000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            loop: true, // 循环模式选项
+            pagination: {
+                el: '.swiper-pagination1',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+        //鼠标覆盖停止自动切换
+        swiper.el.onmouseover = function () {
+            swiper.autoplay.stop();
+        }
+
+        //鼠标离开开始自动切换
+        swiper.el.onmouseout = function () {
+            swiper.autoplay.start();
+        }
+
+
+        //上面那个选项卡
+        $('.dao-conu li').mouseenter(function () {
+            $('.texiao').stop().slideDown(500, 'linear')
+        })
+        $('.dao-conu li').mouseleave(function () {
+            $('.texiao').stop().slideUp(500, 'linear')
+        })
+
+
+        // //    下面那个选项卡
+        var xxk = document.querySelectorAll('.xxk')
+        $('.kk li:eq(0)').mouseenter(function () {
+            $('.xxk').show()
+            
+        })
+        $('.kk li:eq(0)').mouseleave(function () {
+            $('.xxk').hide()
+        })
+  
+
+
+  //2
+  var xxk = document.querySelectorAll('.xxk')
+         $('.kk li:eq(1)').mouseenter(function () {
+            $('.xxk').show()
+        })
+        $('.kk li:eq(1)').mouseleave(function () {
+            $('.xxk').hide()
+        })
+
+
+
+        //二级菜单
+        getList()
+
+        function getList() {
+            $.ajax({
+                url: "../lib/nav_top.json",
+                dataType: 'json',
+                success: function (res) {
+                    // console.log(res)
+
+                    let str = ''
+                    res.forEach(item => {
+                        str += `<li>${item.name}</li>`
+                    })
+                    // .dao-con
+
+                    $('.dao-con > ul')
+                        .html(str)
+                        .on({
+                            mouseenter: () => $('.nav_box').stop().slideDown(),
+                            mouseleave: () => $('.nav_box').stop().slideUp()
+                        })
+                        .children('li')
+                        .on('mouseover', function () {
+                            const index = $(this).index()
+                            const list = res[index].list
+
+                            let str = '';
+
+                            list.forEach(item => {
+                                str += `
+                            <li>
+                <div>
+                    <img src="${ item.list_url }" alt=""> </div>
+                    <p > ${ item.list_name }</p>  
+                    <span >${ item.list_price}</span>
+             
+            </li>  `
+                            })
+                            $('.nav_box > ul').html(str)
+                        })
+
+
+
+                    $('.nav_box')
+                        .on({
+                            mouseover: function () {
+                                $(this).finish().show()
+                            },
+                            mouseout: function () {
+                                $(this).finish().slideUp()
+
+                            }
+                        })
+                }
+            })
+        }
+
+ //第一个
+    get1()
+
+    function get1(){
+        $.ajax({
+            url:'../lib/data.json',
+            dataType:'json',
+            success:function(res){
+                console.log(res)
+
+                let str=''
+
+                res.forEach(item=>{
+                    str+=`
+                    <li><h2><img src="${item.src}" alt=""></h2>
+           <h3>${item.title}</h3>
+                    `
+                })
+                $('.xxk > ul').html(str)
+            }
+          
+        })
+    }
+
+     //第二个
+//      get2()
+
+// function get2(){
+//     $.ajax({
+//         url:'../lib/two.json',
+//         dataType:'json',
+//         success:function(res){
+//             console.log(res)
+
+//             let str=''
+
+//             res.forEach(item=>{
+//                 str+=`
+//                 <li><h2><img src="${item.src}" alt=""></h2>
+//        <h3>${item.title}</h3>
+//                 `
+//             })
+//             $('.xxk > ul').html(str)
+//         }
+      
+//     })
+// }
+
+
+
+        //倒计时抢购
+        function a(n) { //当为0时在前面补一个0
+            return n < 10 ? "0" + n : n;
+        }
+        let future_time = new Date('2020-3-3 20:42:30');
+
+        function print_time() {
+            let now_time = new Date(); //现在时间
+            let remaining_time = Math.ceil((future_time - now_time) / 1000); //时间差
+            let nums = $(".time>span"); //获取三个显示位置
+            if (remaining_time >= 0) { //时间大于0
+                var hour = Math.floor(remaining_time / 3600); //获得时
+                var min = Math.floor(remaining_time % 3600 / 60); //获得分
+                var sec = remaining_time % 60; //获得秒
+            } else { //时间小于0
+                for (let i = 0; i < nums.length; i++) {
+                    nums[i].innerText = "00";
+                }
+                clearInterval(timer); //清除定时器
+            }
+            console.log($(".time>span").eq(0));
+            $(".time>span").eq(0).text(`${a(hour)}`);
+            $(".time>span").eq(1).text(`${a(min)}`)
+            $(".time>span").eq(2).text(`${a(sec)}`)
+        }
+        let timer = setInterval(print_time, 1000);
+    </script>
+</body>
+
+</html>

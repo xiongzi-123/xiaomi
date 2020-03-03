@@ -57,10 +57,9 @@
             width: 1226px;
         }
 
-        /* .active {
-      background-color: pink;
-    } */
+ 
     </style>
+    
 </head>
 
 <body>
@@ -105,7 +104,7 @@
                 <a href=""><img src="../images/logo_03.jpg" alt=""></a>
             </div>
             <ul class="dao-conu">
-              
+
             </ul>
 
 
@@ -144,9 +143,9 @@
                 <div>
                     <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ddffd7562c54f9166fa876c143ff22.png?thumb=1&w=200&h=138&f=webp&q=90"
                         alt=""> </div>
-                    <p> 小米手机</p>
-                    <span>1999</span>
-               
+                <p> 小米手机</p>
+                <span>1999</span>
+
             </li>
             <li>2</li>
             <li>3</li>
@@ -188,65 +187,20 @@
             </div>
 
             <ul class="kk">
-                <li>
-                    <a href="">手机</a>&nbsp;<a href="">电话卡</a>
-                </li>
-                <li>
-                    <a href="">电视</a>&nbsp;<a href="">盒子</a>
-                </li>
-                <li>
-                    <a href="">笔记本</a>&nbsp;<a href="">显示器</a>&nbsp;<a href="">平板</a>
-                </li>
-                <li>
-                    <a href="">家电</a>&nbsp;<a href="">插线板</a>
-                </li>
-                <li>
-                    <a href="">出行</a>&nbsp;<a href="">穿戴</a>
-                </li>
-                <li>
-                    <a href="">智能路</a>&nbsp;<a href="">由器</a>
-                </li>
-                <li>
-                    <a href="">电源</a>&nbsp;<a href="">配件</a>
-                </li>
-                <li>
-                    <a href="">健康</a>&nbsp;<a href="">儿童</a>
-                </li>
-                <li>
-                    <a href="">耳机</a>&nbsp;<a href="">音箱</a>
-                </li>
-                <li>
-                    <a href="">生活</a>&nbsp;<a href="">箱包</a>
-                </li>
+       
+                <li>手机卡<em class="iconfont icon-arrow-right-copy-copy-copy"></em></li>
+               
             </ul>
-          
+
         </div>
-         <!-- 二级菜单 -->
-         <div class="xxk">
+        <!-- 二级菜单 -->
+        <div class="xxk">
             <ul class="kk">
-               <li><h2><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=50&h=50&f=webp&q=90" alt=""></h2>
-           <h3>1</h3>
-               <li>2</li>
-               <li>3</li>
-               <li>4</li>
-               <li>5</li>
-               <li>6</li>
-               <li>7</li>
-               <li>8</li>
-               <li>9</li>
-               <li>10</li>
-               <li>11</li>
-               <li>12</li>
-               <li>13</li>
-               <li>14</li>
-               <li>15</li>
-               <li>16</li>
-               <li>17</li>
-               <li>18</li>
-               <li>19</li>
-               <li>20</li>
-               <li>21</li>
-               <li>22</li>
+                <li>
+                    <h2><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=50&h=50&f=webp&q=90"
+                            alt=""></h2>
+                    <h3>1</h3>
+      
             </ul>
         </div>
     </div>
@@ -633,182 +587,174 @@
 
 
     <script src="../lib/swiper/js/swiper.min.js"></script>
+    <script src="../js/index.js"></script>
 
     <script src="../lib/jquery/dist/jquery.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container1', {
+        // var swiper = new Swiper('.swiper-container1', {
 
-            effect: 'fade',
-            //5秒轮播一次
-            autoplay: {
-                delay: 5000,
-                stopOnLastSlide: false,
-                disableOnInteraction: true,
-            },
-            loop: true, // 循环模式选项
-            pagination: {
-                el: '.swiper-pagination1',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+        //     effect: 'fade',
+        //     //5秒轮播一次
+        //     autoplay: {
+        //         delay: 5000,
+        //         stopOnLastSlide: false,
+        //         disableOnInteraction: true,
+        //     },
+        //     loop: true, // 循环模式选项
+        //     pagination: {
+        //         el: '.swiper-pagination1',
+        //         clickable: true,
+        //     },
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+        // });
 
 
-        //鼠标覆盖停止自动切换
-        swiper.el.onmouseover = function () {
-            swiper.autoplay.stop();
-        }
+        // //鼠标覆盖停止自动切换
+        // swiper.el.onmouseover = function () {
+        //     swiper.autoplay.stop();
+        // }
 
-        //鼠标离开开始自动切换
-        swiper.el.onmouseout = function () {
-            swiper.autoplay.start();
-        }
+        // //鼠标离开开始自动切换
+        // swiper.el.onmouseout = function () {
+        //     swiper.autoplay.start();
+        // }
 
 
         //上面那个选项卡
-        $('.dao-conu li').mouseenter(function () {
-            $('.texiao').stop().slideDown(500, 'linear')
-        })
-        $('.dao-conu li').mouseleave(function () {
-            $('.texiao').stop().slideUp(500, 'linear')
-        })
+        // $('.dao-conu li').mouseenter(function () {
+        //     $('.texiao').stop().slideDown(500, 'linear')
+        // })
+        // $('.dao-conu li').mouseleave(function () {
+        //     $('.texiao').stop().slideUp(500, 'linear')
+        // })
 
 
         // //    下面那个选项卡
-        var xxk = document.querySelectorAll('.xxk')
-        $('.kk li:eq(0)').mouseenter(function () {
-            $('.xxk').show()
-            
-        })
-        $('.kk li:eq(0)').mouseleave(function () {
-            $('.xxk').hide()
-        })
-  
+        // var xxk = document.querySelectorAll('.xxk')
+        // $('.kk li:eq(0)').mouseenter(function () {
+        //     $('.xxk').show()
 
+        // })
+        // $('.kk li:eq(0)').mouseleave(function () {
+        //     $('.xxk').hide()
+        // })
 
-  //2
-  var xxk = document.querySelectorAll('.xxk')
-         $('.kk li:eq(1)').mouseenter(function () {
-            $('.xxk').show()
-        })
-        $('.kk li:eq(1)').mouseleave(function () {
-            $('.xxk').hide()
-        })
+        // var xxk = document.querySelectorAll('.xxk')
+        // $('.kk li:eq(1)').mouseenter(function () {
+        //     $('.xxk').show()
+        // })
+        // $('.kk li:eq(1)').mouseleave(function () {
+        //     $('.xxk').hide()
+        // })
 
 
 
         //二级菜单
-        getList()
+         getList()
+         getXxk()
 
-        function getList() {
-            $.ajax({
-                url: "../lib/nav_top.json",
-                dataType: 'json',
-                success: function (res) {
-                    // console.log(res)
+        // function getList() {
+        //     $.ajax({
+        //         url: "../lib/nav_top.json",
+        //         dataType: 'json',
+        //         success: function (res) {
+        //             // console.log(res)
 
-                    let str = ''
-                    res.forEach(item => {
-                        str += `<li>${item.name}</li>`
-                    })
-                    // .dao-con
+        //             let str = ''
+        //             res.forEach(item => {
+        //                 str += `<li>${item.name}</li>`
+        //             })
+        //             // .dao-con
 
-                    $('.dao-con > ul')
-                        .html(str)
-                        .on({
-                            mouseenter: () => $('.nav_box').stop().slideDown(),
-                            mouseleave: () => $('.nav_box').stop().slideUp()
-                        })
-                        .children('li')
-                        .on('mouseover', function () {
-                            const index = $(this).index()
-                            const list = res[index].list
+        //             $('.dao-con > ul')
+        //                 .html(str)
+        //                 .on({
+        //                     mouseenter: () => $('.nav_box').stop().slideDown(),
+        //                     mouseleave: () => $('.nav_box').stop().slideUp()
+        //                 })
+        //                 .children('li')
+        //                 .on('mouseover', function () {
+        //                     const index = $(this).index()
+        //                     const list = res[index].list
 
-                            let str = '';
+        //                     let str = '';
 
-                            list.forEach(item => {
-                                str += `
-                            <li>
-                <div>
-                    <img src="${ item.list_url }" alt=""> </div>
-                    <p > ${ item.list_name }</p>  
-                    <span >${ item.list_price}</span>
+        //                     list.forEach(item => {
+        //                         str += `
+        //                     <li>
+        //         <div>
+        //             <img src="${ item.list_url }" alt=""> </div>
+        //             <p > ${ item.list_name }</p>  
+        //             <span >${ item.list_price}</span>
              
-            </li>  `
-                            })
-                            $('.nav_box > ul').html(str)
-                        })
+        //     </li>  `
+        //                     })
+        //                     $('.nav_box > ul').html(str)
+        //                 })
 
 
 
-                    $('.nav_box')
-                        .on({
-                            mouseover: function () {
-                                $(this).finish().show()
-                            },
-                            mouseout: function () {
-                                $(this).finish().slideUp()
+        //             $('.nav_box')
+        //                 .on({
+        //                     mouseover: function () {
+        //                         $(this).finish().show()
+        //                     },
+        //                     mouseout: function () {
+        //                         $(this).finish().slideUp()
 
-                            }
-                        })
-                }
-            })
-        }
+        //                     }
+        //                 })
+        //         }
+        //     })
+        // }
 
- //第一个
-    get1()
 
-    function get1(){
-        $.ajax({
-            url:'../lib/data.json',
-            dataType:'json',
-            success:function(res){
-                console.log(res)
+      //选项卡
+        // $.ajax({
+        //     url: '../lib/two.json',
+        //     dataType: 'json',
+        //     success: function (res) {
+        //         let str = ''
+        //         res.forEach((value) => {
+        //             str +=
+        //                 ` <li>${value.name}<em class="iconfont icon-arrow-right-copy-copy-copy"></em></li>`
+        //         })
+        //         $('.ban-con > ul').html(str)
+        //         $('.ban-con > ul').children('li').on({
+        //             mouseenter: function () {
+        //                 const index1 = $(this).index()
+        //                 const list1 = res[index1].list
+        //                 let str1 = ""
+        //                 list1.forEach((item) => {
+        //                     str1 += `<li>
+        //                         <h2>
+        //             <img src="${item.src}" alt=""></h2>
+        //             <h3>${item.title}</h3>
+        //         </li>`
+        //                 })
+        //                 $('.xxk').show()
+        //                 $('.xxk>ul').html(str1)
+        //             },
+        //             mouseleave: function () {
 
-                let str=''
+        //                 $('.xxk').hide()
+                       
+        //             }
+        //         })
 
-                res.forEach(item=>{
-                    str+=`
-                    <li><h2><img src="${item.src}" alt=""></h2>
-           <h3>${item.title}</h3>
-                    `
-                })
-                $('.xxk > ul').html(str)
-            }
-          
-        })
-    }
+        //     }
+        // })
 
-     //第二个
-//      get2()
 
-// function get2(){
-//     $.ajax({
-//         url:'../lib/two.json',
-//         dataType:'json',
-//         success:function(res){
-//             console.log(res)
 
-//             let str=''
-
-//             res.forEach(item=>{
-//                 str+=`
-//                 <li><h2><img src="${item.src}" alt=""></h2>
-//        <h3>${item.title}</h3>
-//                 `
-//             })
-//             $('.xxk > ul').html(str)
-//         }
-      
-//     })
-// }
 
 
 
         //倒计时抢购
+        // let timer = setInterval(print_time, 1000);
         function a(n) { //当为0时在前面补一个0
             return n < 10 ? "0" + n : n;
         }
@@ -824,12 +770,12 @@
                 var sec = remaining_time % 60; //获得秒
             } else { //时间小于0
                 for (let i = 0; i < nums.length; i++) {
-                    nums[i].innerText = "00";
+                    nums[i].innerText = "00";s
                 }
                 clearInterval(timer); //清除定时器
             }
             console.log($(".time>span").eq(0));
-            $(".time>span").eq(0).text(`${a(hour)}`);
+            $(".time>span").eq(0).text(`${a(hour)}`)
             $(".time>span").eq(1).text(`${a(min)}`)
             $(".time>span").eq(2).text(`${a(sec)}`)
         }

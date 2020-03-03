@@ -1,90 +1,674 @@
 [
-	{
-		"title": "小米10Pro",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png"
-	},
-	{
-		"title": "小米10",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4a7a4f24061860901f724b6ba6d75fd9.png"
-	},
-	{
-		"title": "RedmiK304G",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg"
-	},
-	{
-		"title": "RedmiK305G",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7a98170e97ca5df8f5ad2470a8a2d01e.jpg"
-	},
-	{
-		"title": "小米CC9Pro",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74bb2ad7cb8b3707d8fd9d596e1866e2.png"
-	},
-	{
-		"title": "Redmi8A",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/77bfd346ad97807237beca297cfe2fba.png"
-	},
-	{
-		"title": "Redmi8",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/47057d897ee2c05c9215e059e1308dc6.png"
-	},
-	{
-		"title": "小米MIXAlpha",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png"
-	},
-	{
-		"title": "小米9Pro5G",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3ee5503ee5b2be373525e36309d922f8.png"
-	},
-	{
-		"title": "RedmiNote8Pro",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cba27e53367b74271a38a4515a692816.png"
-	},
-	{
-		"title": "RedmiNote8",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b4534b9fd22f478314f3cbbf286b7338.png"
-	},
-	{
-		"title": "小米CC9",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b0d7d2c85734b80a1b8d1a4100c9c1f.png"
-	},
-	{
-		"title": "小米CC美图定制版",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg"
-	},
-	{
-		"title": "小米CC9e",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3d3ee15816d2ccbe922172033c3c3941.png"
-	},
-	{
-		"title": "小米MIX3",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png"
-	},
-	{
-		"title": "黑鲨手机2Pro",
-		"src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eea579b45e6d01f214423c19ef76a459.png"
-	},
-	{
-		"title": "Redmi7A",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/85d746207b997873ddfcdca0da025f78.jpg"
-	},
-	{
-		"title": "RedmiNote7Pro",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/26d1de72e958da75048be5c6cc0b73f6.jpg"
-	},
-	{
-		"title": "移动4G+专区",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5c483e65040470208823a8bfb5d73c27.jpg"
-	},
-	{
-		"title": "小米移动电话卡",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/dafced4abb82c502c087a2aca7078f48.jpg"
-    },
-	{
-		"title": "手机上门维修",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/84e19ece0125992449a6276e2ba333e9.png"
-	},
-	{
-		"title": "云服务空间月卡",
-		"src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg"
-	}
+    {
+    "id": 1,
+    "name": "手机卡 电话卡",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "小米10Pro",
+       
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米10",
+       
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "电视 盒子",
+    "list": [
+      {
+        "list_id": 301,
+        "list_name": "小米电视55英寸",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 301,
+        "list_name": "Redmi 红米电视 70英寸 R70A",
+        "list_price": 3299,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "笔记本 显示器 平板",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "家电 插线板",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/abeb200aaaee68d4635c6235d3ffb3f3.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "出现 穿戴",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cc76c2ce836255c1b2e3e1cf477cfef.png?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "智能 路由器",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?thumb=1&w=40&h=40"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "电源 配件",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8c55361386a46857f962e5142baeefcf.png?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "健康 儿童",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "耳机 音箱",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "生活 箱包",
+    "list": [
+      {
+        "list_id": 401,
+        "list_name": "RedmiBook 13",
+        "list_price": 4199,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 402,
+        "list_name": "小米笔记本Pro 15",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 403,
+        "list_name": "RedmiBook 14",
+        "list_price": 3999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 404,
+        "list_name": "游戏本2019款",
+        "list_price": 6999,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 405,
+        "list_name": "小米笔记本 15.6\"",
+        "list_price": 3799,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      },
+      {
+        "list_id": 406,
+        "list_name": "小米笔记本Air 12.5\"",
+        "list_price": 5499,
+        "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f26030d7d914b86daca51233a3ac5f9.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+      }
+    ]
+  }
 ]

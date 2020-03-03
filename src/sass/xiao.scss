@@ -7,58 +7,7 @@
     list-style: none;
   }
   
-  // .container {
-  //   width: 1226px;
-  //   margin: 0 auto;
-  // }
-  
-  // .header {
-  //   height: 40px;
-  //   width: 100%;
-  //   background-color: #333;
-  
-  //   > .container {
-  //     display: flex;
-  //     justify-content: space-between;
-  //     width: 1226px;
-  //     margin: 0 auto;
-  //     color: #fff;
-  //     height: 100%;
-  
-  //     > ul {
-  //       display: flex;
-  //       height: 100%;
-  //       align-items: center;
-  
-  //       > li {
-  //         height: 100%;
-  //         display: flex;
-  //         justify-content: center;
-  //         align-items: center;
-  //         padding: 0 20px;
-  //       }
-  //     }
-  
-  //     > ol {
-  //       display: flex;
-  //       height: 100%;
-  
-  //     }
-  //   }
-  // }
-  
-  // .nav_top {
-  //   > ul {
-  //     display: flex;
-  //     padding: 20px 0;
-  
-  //     > li {
-  //       padding: 0 20px;
-  //       font-size: 22px;
-  //       cursor: pointer;
-  //     }
-  //   }
-  // }
+
   
 
   .nav_box {
@@ -146,27 +95,38 @@
 //菜单 （2）
   .xxk {
    top: 140px;
-    width: 992px;
+    width: 996px;
     z-index: 30;
     height: 460px;
-    background-color: #fff;
+  
     /* float: right; */
     position: absolute;
     left: 381px;
+    // background: white;
+    background-color: #fff;
     display: none;
+    box-sizing: border-box;
         
     >ul{
-      width: 992px;
+      // width: 996px;
    
     
       height: 460px;
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+     
+      // align-items: center;
+      position: absolute;
+      
       >li{
-       height: 75px;
-       
+      //  height: 76px;
+      //  background-color: pink;
+      background-color: #fff;
+      
         width: 240px;
+    
+          // width: 25%;
          >h2 img{
            padding: 20px 0 0 20px;
            float: left;
@@ -177,7 +137,7 @@
           float: left;
           padding-top: 30px;
           font-weight: normal;
-          font-size: 14px;
+          font-size: 12px;
           margin-left: 12px;
           color: #5E5E5E;
         }
@@ -186,4 +146,21 @@
     
     }
 }
+.ban-con ul{
+  background: rgba(105,101,101,.6);
+  height: 440px;
+  color: #fff;
+    >li{
+      font-size: 14px;
+      color: #fff;
+    }
+}
+// <div class="xxk">
+// <ul class="kk">
+//     <li>
+//         <h2><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=50&h=50&f=webp&q=90"
+//                 alt=""></h2>
+//         <h3>1</h3>
 
+// </ul>
+// </div>

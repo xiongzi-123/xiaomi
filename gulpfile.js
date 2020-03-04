@@ -130,7 +130,7 @@ const serverHandler = () => {
              .pipe(webserver({ // 需要一些配置项
                host: 'localhost', // 域名, 这个域名可以自定义
                port: 8080, // 端口号, 0 ~ 65535, 尽量不适用 0 ~ 1023
-               open: './pages/index.html', // 你默认打开的首页, 从 dist 下面的目录开始书写
+               open: './pages/list.html', // 你默认打开的首页, 从 dist 下面的目录开始书写
                livereload: true, // 自动刷新浏览器 - 热重启
                // 所有的代理配置都在 proxies 里面
                /*

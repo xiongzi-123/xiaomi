@@ -1,0 +1,475 @@
+[
+    {
+        "id": 1,
+        "name": "综合",
+        "list": [{
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "list_name": "小米CC9 Pro",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+                "list_name": "小米CC9 Pro 6GB+128GB 冰雪极光",
+                "list_price": "2599元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "list_name": "小米CC9 Pro",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+                "list_name": "小米CC9 Pro 6GB+128GB 冰雪极光",
+                "list_price": "2599元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "list_name": "小米CC9 Pro",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+                "list_name": "小米CC9 Pro 6GB+128GB 冰雪极光",
+                "list_price": "2599元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "list_name": "小米CC9 Pro",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+                "list_name": "小米CC9 Pro 6GB+128GB 冰雪极光",
+                "list_price": "2599元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941191.92012217.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 暗夜魅影",
+                "list_price": "3199元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941393.18077211.jpg",
+
+                "zi": "分期"
+            }
+
+
+        ]
+    },
+    {
+        "id": 2,
+        "name": "新品",
+        "list": [{
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "list_name": "小米CC9 Pro/尊享版 撞色飘带保护壳",
+                "list_price": "69元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574669838.23882683.png",
+                "zi": "分期"
+            }
+
+        ]
+    }
+    ,
+    {
+        "id": 2,
+        "name": "销量",
+        "list": [
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            },
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+            ,
+            {
+                "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941094.42616676.jpg",
+                "list_name": "小米CC9 Pro 8GB+128GB 魔法绿境",
+                "list_price": "2799元",
+                "url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941153.13961550.jpg",
+                "zi": "分期"
+            }
+        ]
+    }
+
+]

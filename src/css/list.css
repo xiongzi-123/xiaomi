@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+body,p,h1,h2,h3,h4,ul,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+b,
+strong {
+    font-weight: normal;
+}
+
+
+
+/* //二级菜单上面
+$.ajax({
+	url: '../lib/nav_top.json',
+	dataType: 'json',
+	success: function(res) {
+		let str = ''
+		res.forEach(element => {
+			str += `<li>${element.name}</li>`
+		})
+		$('.nav-top-t-t')
+			.html(str)
+			.on({
+				mouseenter: () =>
+					$('.J_navMenu')
+						.stop()
+						.slideDown(),
+				mouseleave: () =>
+					$('.J_navMenu')
+						.stop()
+						.slideUp()
+			})
+			.children('li')
+			.on('mouseover', function() {
+				let index = $(this).index()
+				let list = res[index].list
+				let str = ''
+				list.forEach(element => {
+					str += `<li>
+				<div><img src="${element.list_url}" alt=""></div>
+				<p>${element.list_name}</p>
+				<span>${element.list_price}元</span>
+			</li>`
+				})
+				$('.J_navMenu ul').html(str)
+			})
+		$('.J_navMenu').on({
+			mouseover: function() {
+				$(this)
+					.stop()
+					.slideDown()
+			},
+			mouseout: function() {
+				$(this)
+					.stop()
+					.slideUp()
+			}
+		})
+	}
+}) */

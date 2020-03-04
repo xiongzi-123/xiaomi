@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../sass/libiao.css">
+    <link rel="stylesheet" href="../lib/pagination/pagination.css">
+</head>
+
+<body>
+    <!-- head -->
+    <div id="head">
+        <div class="head-con">
+            <ul>
+                <li style="border-left:none;"><a href="">小米商城</a></li>
+                <li><a href="">MIUI</a></li>
+                <li><a href="">loT</a></li>
+                <li><a href="">云服务</a></li>
+                <li><a href="">金融</a></li>
+                <li><a href="">有品</a></li>
+                <li><a href="">小爱开放平台</a></li>
+                <li><a href="">企业团购</a></li>
+                <li><a href="">资质证照</a></li>
+                <li><a href="">协议规则</a></li>
+                <li><a href="">下载app</a></li>
+                <li style="border-right:none;"><a href="">Select Location</a></li>
+            </ul>
+            <div class="head-conr">
+                <ul>
+                    <li style="border-left:none;"><a href="">登录</a></li>
+                    <li><a href="">注册</a></li>
+                    <li style="border-left:none; margin: 0 9px;"><a href="">消息通知</a></li>
+                </ul>
+            </div>
+            <div class="head-cong">
+                <a href="">
+                    <span>购物车&nbsp;（0）</span>
+                    <i style="border-top: none;">购物车中还没有商品，赶紧选购吧!</i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航 -->
+    <div id="daohang">
+        <div class="dao-con">
+            <div class="dao-logo">
+
+                <a href=""><img src="../images/logo_03.jpg" alt=""></a>
+            </div>
+            <ul class="dao-conu">
+                <li class="a"></li><a href="">全部商品分类</a> </li>
+                <div class="ban-con">
+                    <ul class="kk">
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <li class="b"><a href="">123</a> </li>
+
+
+            </ul>
+            <div class="dao-ss">
+                <input type="text" name="" id="" value="小米9" style="border-right: 1px solid #ccc; ">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="nav_box">
+        <ul class="container">
+            <li>
+                <div>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ddffd7562c54f9166fa876c143ff22.png?thumb=1&w=200&h=138&f=webp&q=90"
+                        alt=""> </div>
+                <p> 小米手机</p>
+                <span>1999</span>
+
+            </li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li style="border: none">6</li>
+        </ul>
+    </div>
+
+
+    <!-- <首页> -->
+    <div class="con-box">
+        <div class="con">
+            <a href="./index.html">首页</a>
+            <span>></span>
+            <span class="sep">全部结果</span>
+            <span>></span>
+            <span class="sep">小米9</span>
+        </div>
+    </div>
+
+    <!-- 分类 -->
+    <div class="fenlei">
+        <div class="fenlei-con">
+            <div class="fenlei-list">
+                <ul>
+                    <span>分类 :</span>
+                    <li> <a href="">全部</a> </li>
+                    <li>手机</li>
+                    <li>手机贴膜</li>
+                    <li>手机保护壳</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="sj">
+        <div class="sj-con">
+            <ul class="sj-zuo">
+                <li>综合</li>
+                <li>综合</li>
+                <li>综合</li>
+                <li>综合</li>
+
+            </ul>
+
+            <ul class="sj-you">
+                <li>收货地</li>
+                <li>综合</li>
+                <li>综合</li>
+                <li>综合</li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="box">
+        <ul>
+            <li>
+                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg" alt="">
+                <p>小米CC9 Pro</p>
+                <h2>2599元 起 </h2>
+                <span> <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg"
+                        alt=""></span>
+                <h3>分期</h3>
+            </li>
+         
+        </ul>
+    </div>
+
+    <div class="M-box3"></div>
+</body>
+
+<script src="../lib/jquery/dist/jquery.min.js"></script>
+<script src="../lib/pagination/pagination.js"></script>
+<script>
+  
+  //选项卡
+    $.ajax({
+        url: '../lib/two.json',
+        dataType: 'json',
+        success: function (res) {
+            let str = ''
+            res.forEach((value) => {
+                str +=
+                    ` <li>${value.name}<em class="iconfont icon-arrow-right-copy-copy-copy"></em></li>`
+            })
+            $('.ban-con > ul').html(str)
+            $('.ban-con > ul').children('li').on({
+                mouseenter: function () {
+                    const index1 = $(this).index()
+                    const list1 = res[index1].list
+                    let str1 = ""
+                    list1.forEach((item) => {
+                        str1 += `<li>
+                                <h2>
+                    <img src="${item.src}" alt=""></h2>
+                    <h3>${item.title}</h3>
+                </li>`
+                    })
+                    //     $('.xxk').show()
+                    //     $('.xxk>ul').html(str1)
+                    // },
+                    // mouseleave: function () {
+
+                    //     $('.xxk').hide()
+
+                }
+            })
+
+        }
+    })
+
+
+    getList()
+
+    function getList() {
+        $.ajax({
+            url: "../lib/nav_top.json",
+            dataType: 'json',
+            success: function (res) {
+                // console.log(res)
+
+                let str = '';
+                res.forEach(item => {
+                    str += `<li><a>${item.name}</a></li>`
+                })
+
+
+                $('.dao-con>ul').html(str)
+                    .on({
+                        mouseenter: () => $('.nav_box').stop().slideDown(),
+                        mouseleave: () => $('.nav_box').stop().slideUp()
+                    })
+                    .children('li')
+                    .on('mouseover', function () {
+                        const index = $(this).index()
+                        const list = res[index].list
+
+                        let str = ''
+
+                        list.forEach(item => {
+                            str += `
+                        <li>
+                            <div>
+                                    <img src="${ item.list_url }" alt=""> </div> 
+                                    <p>${item.list_name}</p>
+                                    <span>${item.list_price}</span>
+                                    </li>
+                    `
+                        })
+                        $('.nav_box > ul').html(str)
+                    })
+                $('.nav_box')
+                    .on({
+                        mouseover: function () {
+                            $(this).finish().show()
+                        },
+                        mouseout: function () {
+                            $(this).finish().slideUp()
+
+                        }
+                    })
+
+            }
+        })
+    }
+</script>
+<script>
+    $('.M-box3').pagination({
+        pageCount: 2,
+        jump: true,
+        coping: true,
+        homePage: '首页',
+        endPage: '末页',
+        prevContent: '上页',
+        nextContent: '下页',
+        callback: function (api) {
+            console.log(api.getCurrent())
+        }
+    });
+
+
+    $.ajax({
+        url: '../lib/list.json',
+        dataType: 'json',
+        success: function (res) {
+            console.log(res);
+            let str = ''
+            res.forEach((value) => {
+                str += `
+                    <li>${value.name}</li>
+                `
+            })
+            function fn() {
+                    const index1 = 0
+                    const list1 = res[index1].list
+                    let str1 = ""
+                    list1.forEach((item) => {
+                        str1 += `
+                <li>
+                        <img src="${item.list_url}" alt="">
+                        <p>${item.list_name}</p>
+                        <h2>${item.list_price} </h2>
+                        <span> <img src="${item.url}" alt=""></span>
+                        <h3>${item.zi}</h3>
+                    </li>
+                    `
+                    $('.box >ul').html(str1)
+                    })
+                }
+                fn()
+            $('.sj-zuo').html(str)
+            $('.sj-con > ul').children('li').on({
+                click: function () {
+                    const index1 = $(this).index()
+                    const list1 = res[index1].list
+                    let str1 = ""
+                    list1.forEach((item) => {
+                        str1 += `
+                <li>
+                        <img src="${item.list_url}" alt="">
+                        <p>${item.list_name}</p>
+                        <h2>${item.list_price} </h2>
+                        <span> <img src="${item.url}" alt=""></span>
+                        <h3>${item.zi}</h3>
+                    </li>
+                    `
+                    $('.box >ul').html(str1)
+                    })
+                }
+            })
+           
+           
+  }
+
+    })  
+
+
+    // $('.sj-con > ul').html(str)
+</script>
+
+</html>

@@ -1,0 +1,432 @@
+#head {
+    width: 100%;
+    height: 40px;
+    background: #333333;
+
+    .head-con {
+        width: 1240px;
+        height: 40px;
+        margin: 0 auto;
+        background: #333333;
+
+        >ul {
+            float: left;
+            margin: 13px 0 12px 0px;
+
+            >li {
+                float: left;
+                border-right: 1px solid #33373c;
+                border-left: 1px solid #423c37;
+
+                &:hover a {
+                    color: #fff;
+                }
+
+                >a {
+                    font-size: 12px;
+                    float: left;
+                    margin: 0px 7px;
+                    color: #b0b0b0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .head-conr ul {
+        float: left;
+        margin: 13px 0 12px 240px;
+
+        >li {
+            float: left;
+            border-right: 1px solid #33373c;
+            border-left: 1px solid #423c37;
+
+            &:hover a {
+                color: #fff;
+            }
+
+            >a {
+                font-size: 12px;
+                float: left;
+                margin: 0px 5px;
+                color: #b0b0b0;
+                text-align: center;
+            }
+        }
+    }
+
+    .head-cong {
+        width: 120px;
+        height: 40px;
+        float: right;
+        background: url(../images/gw_03.jpg) no-repeat 15px 14px #424242;
+        box-sizing: border-box;
+        padding: 9px 0 12px 40px;
+        position: relative;
+
+        &:hover {
+            background: #fff;
+        }
+
+        >a {
+            font-size: 12px;
+            text-align: center;
+            color: #b0b0b0;
+
+            &:hover i {
+                display: block;
+            }
+
+            &:hover span {
+                color: #FF6B06;
+            }
+
+            >i {
+                width: 310px;
+                height: 100px;
+                background: white;
+                position: absolute;
+                top: 40px;
+                right: 0px;
+                z-index: 1111;
+                text-align: center;
+                line-height: 100px;
+                border: 1px solid #ccc;
+                display: none;
+            }
+        }
+
+    }
+}
+
+//导航
+#daohang {
+    width: 100%;
+    height: 100px;
+
+    .dao-con {
+        width: 1233px;
+        height: 56px;
+        margin: 0 auto;
+        position: relative;
+        padding: 22px 0 22px 8px;
+        // float: left;
+        // >ul{
+        //     display: none;
+        //     z-index: 10;
+        // }
+
+        .dao-logo {
+            float: left;
+        }
+
+        .dao-conu {
+            position: relative;
+            z-index: 10;
+            float: left;
+            width: 820px;
+            height: 68px;
+            margin: 0;
+            padding: 10px 0 0 61px;
+            list-style-type: none;
+            font-size: 16px;
+
+            >li {
+                // position: relative;
+                float: left;
+                // width: 127px;
+                margin-right: 34px;
+                margin-top: 10px;
+                &:hover  a{
+                    color: orange;
+                }
+              
+            }
+
+              
+            }
+        }
+        .ban-con{
+            // width: 234px;
+            // height: 460px;
+            float: left;
+            >ul{
+                height: 418px;
+                margin: 0;
+                width: 234px;
+                padding: 20px 0;
+                list-style-type: none;
+                border: 1px solid #ff6700;
+                color: #424242;
+                background-color: #fff;
+                position: absolute;
+                top: 100px;
+                left: -60px;
+                display: none;
+            
+
+            }
+        }
+
+        .dao-ss {
+            width: 294px;
+            height: 48px;
+            border: 1px solid #cccccc;
+            float: left;
+            // margin: 5px 0 0 100px;
+            background: url(../images/fdj_03.jpg) no-repeat 258px 14px;
+            position: relative;
+
+            &:active span {
+                display: none;
+            }
+            &:hover ul{
+                display: block;
+                z-index: 1111;
+            }
+            &:hover{
+                border-color: #FF6B06;
+                // background-color: #FF6B06;
+            }
+            > input {
+                width: 245px;
+                height: 48px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                text-align: 5px;
+            }
+
+      
+        }
+    }
+
+    .nav_box {
+        border-top: 1px solid #ccc;
+         border-bottom:1px solid #ccc;
+        display:none;
+        position: absolute;
+        z-index: 9999;
+        background-color: #fff;
+        width: 100%;
+        
+      
+        > ul {
+          display: flex;
+          width: 1226px;
+          margin: 0 auto;
+        //   display: none;
+        //   z-index: 10;
+         
+      
+          > li {
+            flex: 1;
+            padding: 20px;
+      
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      
+            > div {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border-right: 1px solid #333;
+              margin-bottom: 15px;
+      
+              img {
+                width: 160px;
+                height: 110px;
+                display: block;
+              }
+            }
+      
+            > p {
+              margin-bottom: 5px;
+              font-size: 10px;
+            }
+      
+            &:last-child {
+      
+              > div {
+                border: none;
+              }
+            }
+          }
+        }
+      }
+.con-box{
+    height: 40px;
+        background: #f5f5f5;
+}
+    .con{
+        width: 1226px;
+        margin: 0 auto;
+        height: 40px;
+        background: #f5f5f5;
+        >a{
+            font-size: 12px;
+            line-height: 40px;
+            color: #616161;
+            cursor: pointer;
+            &:hover{
+                color: #424242
+            }
+        }
+        .sep{
+            font-size: 12px;
+            line-height: 40px;
+            color: #616161;
+            cursor: pointer;
+            &:hover{
+                color: #424242
+            }
+        }
+    }
+
+    .fenlei{
+        height: 84px;
+        background-color: #fff;
+
+        .fenlei-con{
+            width: 1226px;
+            margin: 0 auto;
+
+            .fenlei-list{
+                position: relative;
+                padding-top: 20px;
+                >ul{
+                    height: 48px;
+                    padding: 0 60px 0 124px;
+                    >span{
+                        top: 20px;
+                        left: 0;
+                        color: #b0b0b0;
+                        position: absolute;
+                        height: 20px;
+                        line-height: 20px;
+                        padding: 14px 0;
+                        font-size: 14px;
+                    }
+                    >li{
+                        float: left;
+                        padding: 14px 0 0 0;
+                        margin-right: 66px;
+                        color: #424242;
+                        font-size: 14px;
+                        cursor: pointer;
+                        a{
+                            color: #f60;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+.sj{
+    height: 30px;
+    background: #f5f5f5;
+    padding-top: 20px;
+    .sj-con{
+        width: 1226px;
+        margin: 0 auto;
+        height: 30px;
+       
+    }
+}
+.sj-zuo{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    >li{
+        height: 30px;
+        line-height: 30px;
+        padding: 0 30px;
+        float: left;
+        border-left: 1px solid #e0e0e0;
+        cursor: pointer;
+
+        &:nth-child(1){
+            color: #f60
+        }
+    }
+}
+
+.sj-you{
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    >li{
+        float: left;
+    }
+}
+.box{
+    width: 1240px;
+    margin: 0 auto;
+   
+margin-top: 20px;
+    // position: relative;
+    // float: left;
+   
+    
+   
+    text-align: center;
+    background: #fff;
+    
+
+    >ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 47px;
+        // margin-right: 14px;
+        // margin-bottom: 14px;
+        >li{
+            width: 23%;
+            margin: 0 0 20px 20px;
+            border: 1px solid #333;
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+            flex-direction: column;
+            height: 430px;
+            // box-sizing: border-box;
+
+            img{
+                width: 200px;
+                height: 200px;;
+                // display: block;
+                margin: 0 auto 16px;
+            }
+            h2{
+                font-size: 14px;
+                color: #f60    ;
+                text-align: center;
+            }
+            p{
+                font-size: 12px;
+                text-align: center;
+            }
+            span{
+                text-align: center;
+                img{
+                    width: 34px;
+                    height: 34px;
+                    display: block;
+                }
+            }
+            h3{
+                font-size: 12px;
+                text-align: center;
+            }
+
+
+        }
+    }
+}
+
+    

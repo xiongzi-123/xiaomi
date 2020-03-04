@@ -56,10 +56,8 @@
         .swiper-slide-active {
             width: 1226px;
         }
-
- 
     </style>
-    
+
 </head>
 
 <body>
@@ -104,13 +102,13 @@
                 <a href=""><img src="../images/logo_03.jpg" alt=""></a>
             </div>
             <ul class="dao-conu">
-
+                <!-- <li></!-->
+                <!-- <li></!--> 
+                <!-- <li></!--> 
+                <!-- <li></!--> 
+                <!-- <li></!--> 
+                <!-- <li></!--> 
             </ul>
-
-
-
-
-
 
 
             <div class="dao-ss">
@@ -187,9 +185,9 @@
             </div>
 
             <ul class="kk">
-       
+
                 <li>手机卡<em class="iconfont icon-arrow-right-copy-copy-copy"></em></li>
-               
+
             </ul>
 
         </div>
@@ -200,7 +198,7 @@
                     <h2><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d622e8a81f81caa0f619ee750cf64501.png?thumb=1&w=50&h=50&f=webp&q=90"
                             alt=""></h2>
                     <h3>1</h3>
-      
+
             </ul>
         </div>
     </div>
@@ -623,38 +621,11 @@
         // }
 
 
-        //上面那个选项卡
-        // $('.dao-conu li').mouseenter(function () {
-        //     $('.texiao').stop().slideDown(500, 'linear')
-        // })
-        // $('.dao-conu li').mouseleave(function () {
-        //     $('.texiao').stop().slideUp(500, 'linear')
-        // })
-
-
-        // //    下面那个选项卡
-        // var xxk = document.querySelectorAll('.xxk')
-        // $('.kk li:eq(0)').mouseenter(function () {
-        //     $('.xxk').show()
-
-        // })
-        // $('.kk li:eq(0)').mouseleave(function () {
-        //     $('.xxk').hide()
-        // })
-
-        // var xxk = document.querySelectorAll('.xxk')
-        // $('.kk li:eq(1)').mouseenter(function () {
-        //     $('.xxk').show()
-        // })
-        // $('.kk li:eq(1)').mouseleave(function () {
-        //     $('.xxk').hide()
-        // })
-
 
 
         //二级菜单
-         getList()
-         getXxk()
+        getList()
+        getXxk()
 
         // function getList() {
         //     $.ajax({
@@ -689,7 +660,7 @@
         //             <img src="${ item.list_url }" alt=""> </div>
         //             <p > ${ item.list_name }</p>  
         //             <span >${ item.list_price}</span>
-             
+
         //     </li>  `
         //                     })
         //                     $('.nav_box > ul').html(str)
@@ -712,7 +683,7 @@
         // }
 
 
-      //选项卡
+        //选项卡
         // $.ajax({
         //     url: '../lib/two.json',
         //     dataType: 'json',
@@ -741,7 +712,7 @@
         //             mouseleave: function () {
 
         //                 $('.xxk').hide()
-                       
+
         //             }
         //         })
 
@@ -770,7 +741,8 @@
                 var sec = remaining_time % 60; //获得秒
             } else { //时间小于0
                 for (let i = 0; i < nums.length; i++) {
-                    nums[i].innerText = "00";s
+                    nums[i].innerText = "00";
+                    s
                 }
                 clearInterval(timer); //清除定时器
             }

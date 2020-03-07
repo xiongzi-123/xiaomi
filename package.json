@@ -30,7 +30,7 @@
     "last 2 Explorer versions"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "jquery": "^3.4.1",
 
     "jquery-validate": "^2.0.0",

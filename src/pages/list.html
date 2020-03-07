@@ -131,10 +131,11 @@
                 <li>综合</li>
                 <li>综合</li>
                 <li>综合</li>
-                <li>综合</li>
+              
 
             </ul>
 
+            <button class="sort">排序</button>
             <ul class="sj-you">
                 <li>收货地</li>
                 <li>综合</li>
@@ -155,18 +156,21 @@
                         alt=""></span>
                 <h3>分期</h3>
             </li>
-         
+
         </ul>
     </div>
+    <div class="fenye">
+        <div class="M-box3"></div>
+    </div>
 
-    <div class="M-box3"></div>
+    
+
 </body>
 
 <script src="../lib/jquery/dist/jquery.min.js"></script>
 <script src="../lib/pagination/pagination.js"></script>
 <script>
-  
-  //选项卡
+    //选项卡
     $.ajax({
         url: '../lib/two.json',
         dataType: 'json',
@@ -189,12 +193,7 @@
                     <h3>${item.title}</h3>
                 </li>`
                     })
-                    //     $('.xxk').show()
-                    //     $('.xxk>ul').html(str1)
-                    // },
-                    // mouseleave: function () {
 
-                    //     $('.xxk').hide()
 
                 }
             })
@@ -258,77 +257,244 @@
     }
 </script>
 <script>
-    $('.M-box3').pagination({
-        pageCount: 2,
-        jump: true,
-        coping: true,
-        homePage: '首页',
-        endPage: '末页',
-        prevContent: '上页',
-        nextContent: '下页',
-        callback: function (api) {
-            console.log(api.getCurrent())
-        }
-    });
+    //     $.ajax({
+    //         url: '../lib/list.json',
+    //         dataType: 'json',
+    //         success: function (res) {
+    //             console.log(res);
+    //             let str = ''
+    //             res.forEach((value) => {
+    //                 str += `
+    //                     <li>${value.name}</li>
+    //                 `
+    //             })
+
+    //             function fn() {
+    //                 const index1 = 0
+    //                 const list1 = res[index1].list
+    //                 let str1 = ""
+    //                 list1.forEach((item) => {
+    //                     str1 += `
+    //                 <li>
+    //                         <img src="${item.list_url}" alt="">
+    //                         <p>${item.list_name}</p>
+    //                         <h2>${item.list_price} </h2>
+    //                         <span> <img src="${item.url}" alt=""></span>
+    //                         <h3>${item.zi}</h3>
+    //                     </li>
+    //                     `
+    //                     $('.box >ul').html(str1)
+    //                 })
+    //             }
+    //             fn()
+    //             $('.sj-zuo').html(str)
+    //             $('.sj-con > ul').children('li').on({
+    //                 click: function () {
+    //                     const index1 = $(this).index()
+    //                     const list1 = res[index1].list
+    //                     let str1 = ""
+    //                     list1.forEach((item) => {
+    //                         str1 += `
+    //                 <li>
+    //                         <img src="${item.list_url}" alt="">
+    //                         <p>${item.list_name}</p>
+    //                         <h2>${item.list_price} </h2>
+    //                         <span> <img src="${item.url}" alt=""></span>
+    //                         <h3>${item.zi}</h3>
+    //                     </li>
+    //                     `
+    //                         $('.box >ul').html(str1)
+    //                     })
+    //                 }
+    //             })
 
 
-    $.ajax({
-        url: '../lib/list.json',
-        dataType: 'json',
-        success: function (res) {
-            console.log(res);
-            let str = ''
-            res.forEach((value) => {
-                str += `
-                    <li>${value.name}</li>
-                `
-            })
-            function fn() {
-                    const index1 = 0
-                    const list1 = res[index1].list
-                    let str1 = ""
-                    list1.forEach((item) => {
-                        str1 += `
-                <li>
-                        <img src="${item.list_url}" alt="">
-                        <p>${item.list_name}</p>
-                        <h2>${item.list_price} </h2>
-                        <span> <img src="${item.url}" alt=""></span>
+    //         }
+
+    //     })
+
+    //     $('.box >ul').on('click','li',function(){
+    //         const id=(this).list('id')
+
+    //         let list =null
+    //         for(let i=0;i< list.length;i++){
+    //             if(list[i].id===id){
+    //                 data=list2[i]
+    //                 break
+    //             }
+    //         }   
+
+    //            localStorage.setItem('goods_info', JSON.stringify(list))
+
+    // // 存储好了以后就跳转页面
+    // window.location.href = './cart.html'
+
+    //     })
+
+
+
+
+//    true  >  升序
+//    false=>降序
+
+// 2-1 准备一个变量
+    var flag =true;
+    var list2=[]
+ 
+// 1.请求数据
+    getList1()
+
+    function getList1() {
+        $.ajax({
+            url: '../lib/list1.json',
+            dataType: 'json',
+            success: function (res) {
+                // console.log(res)
+
+                // 2.渲染分页器
+                $('.M-box3').pagination({
+                    pageCount: Math.ceil(res.length / 20), // 总页数
+                    current: 1, // 当前页
+                    // jump: true,
+                    coping: true,
+                    // homePage: '首页', // 首页按钮的文本
+                    // endPage: '末页', // 末页按钮的文本
+                    prevContent: '<',
+                    nextContent: '>',
+                    callback: function (api) { // 当你切换页面的时候会触发
+                        // 每次执行的时候改变一下全局 currPage
+                        //   currPage = api.getCurrent()
+
+                        // 从新执行以下 getList()
+                        //   getList()
+
+                        // console.log(api.getCurrent())
+                        let curr = api.getCurrent()
+
+                        // console.log(curr)
+                        // 根据第几页，从我的总数组里面筛选出一部分数据
+                        var list = res.slice((curr - 1) * 20, curr * 20)
+                        // console.log(list)
+
+                        // 3-2 每次使用分页器切换的时候渲染一次
+                        bindHtml(list)
+
+                         
+                    }
+                })
+                //   3.先把第一页的数渲染一次
+                bindHtml(res.slice(0, 20))
+
+                // 2-2 给全局变量赋值
+                list2=res;
+                // console.log(list2)
+            }
+        })
+    }
+
+    function bindHtml(list) {
+        // console.log(list)
+
+        let str = ''
+
+        list.forEach(item => {
+            str += `
+        <li data-id="${item.id}">
+                         <img src="${item.list_url}" alt="">
+                      <p>${item.list_name}</p>
+                       <h2>${item.list_price} </h2>
+                       <span> <img src="${item.url}" alt=""></span>
                         <h3>${item.zi}</h3>
-                    </li>
+                   </li>
                     `
-                    $('.box >ul').html(str1)
-                    })
-                }
-                fn()
-            $('.sj-zuo').html(str)
-            $('.sj-con > ul').children('li').on({
-                click: function () {
-                    const index1 = $(this).index()
-                    const list1 = res[index1].list
-                    let str1 = ""
-                    list1.forEach((item) => {
-                        str1 += `
-                <li>
-                        <img src="${item.list_url}" alt="">
-                        <p>${item.list_name}</p>
-                        <h2>${item.list_price} </h2>
-                        <span> <img src="${item.url}" alt=""></span>
-                        <h3>${item.zi}</h3>
-                    </li>
-                    `
-                    $('.box >ul').html(str1)
-                    })
-                }
-            })
-           
-           
-  }
-
-    })  
 
 
-    // $('.sj-con > ul').html(str)
+        })
+     $('.box >ul').html(str)
+    }
+
+    // 2.排序
+    var btn =document.querySelector('.sort')
+    btn.onclick=function(){
+        flag=!flag
+       
+        
+        list2.sort(function (a,b){
+            if(flag ===true){
+                return a.id -b.id
+
+            }else{
+                return b.id - a.id
+            }
+        })
+            // console.log(list2)
+
+             $('.M-box3').pagination({
+                    pageCount: Math.ceil(list2.length / 20), // 总页数
+                    current: 1, // 当前页
+                    // jump: true,
+                    coping: true,
+                    // homePage: '首页', // 首页按钮的文本
+                    // endPage: '末页', // 末页按钮的文本
+                    prevContent: '<',
+                    nextContent: '>',
+                    callback: function (api) { // 当你切换页面的时候会触发
+                        // 每次执行的时候改变一下全局 currPage
+                        //   currPage = api.getCurrent()
+
+                        // 从新执行以下 getList()
+                        //   getList()
+
+                        // console.log(api.getCurrent())
+                        let curr = api.getCurrent()
+
+                        // console.log(curr)
+                        // 根据第几页，从我的总数组里面筛选出一部分数据
+                        var list = list2.slice((curr - 1) * 20, curr * 20)
+                        // console.log(list)
+
+                        // 3-2 每次使用分页器切换的时候渲染一次
+                        bindHtml(list)
+
+                         
+                    }
+                })
+                //   3.先把第一页的数渲染一次
+                bindHtml(list2.slice(0, 20))
+
+    }
+
+//   3.事件委托绑定一个事件
+  $('.box >ul').on('click','li',function(){
+    //   console.log(this)
+     
+     const id=$(this).data('id')
+    //  console.log(id)
+    //  console.log('我应该找到 list2 这个数组中 id 为 '+ id +' 的那一条数据')
+
+     //从总的数据里面找到 id 配套的哪一个数据
+     //准备一个空对象
+     let data ={}
+
+     for (let i=0;i<list2.length;i++){
+         if(list2[i].id===id){
+             data=list2[i]
+             break
+             //找到了就不用循环了
+            
+         }
+     }
+    //  console.log(data)
+    //  4.要把这一条数据拿到cart.html 页面去渲染一下
+
+    // 当你发达 cart 页面的时候，在拿出来就可以了
+    localStorage.setItem('goods_info',JSON.stringify(data))
+
+    //存储好了以后就跳转页面
+     window.location.href='./detail.html'
+
+  })
+
 </script>
 
 </html>

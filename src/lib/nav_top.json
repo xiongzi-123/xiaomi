@@ -295,10 +295,87 @@
   },
   {
     "id": 8,
-    "name": "服务"
+    "name": "服务",
+    "list": [
+      {
+        "list_id": 701,
+        "list_name": "小米米家智能摄像机云台版",
+        "list_price": 189,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2a500be4264c692899b25d86c16403f7.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 702,
+        "list_name": "小米小爱老师",
+        "list_price": 489,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e3fb0886fdb13e5ae784b9713b9a0038.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 703,
+        "list_name": "小米米家智能门锁",
+        "list_price": 1299,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5630aa997c82409ee33b2814c7eb2244.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 704,
+        "list_name": "小米小爱触屏音箱",
+        "list_price": 299,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/f6e585a4bf5c0f744ca60f19ecd6fadf.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 705,
+        "list_name": "小爱万能遥控板",
+        "list_price": 1799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/df136199221a23299bc5348f37230a86.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 706,
+        "list_name": "查看全部",
+        "list_price": "智能硬件",
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c1016ddffd2ac5808c4bebcdbefd413a.jpg?thumb=1&w=200&h=138"
+      }
+    ]
+
   },
   {
     "id": 8,
-    "name": "社会"
+    "name": "社会",
+    "list": [
+      {
+        "list_id": 701,
+        "list_name": "小米米家智能摄像机云台版",
+        "list_price": 189,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2a500be4264c692899b25d86c16403f7.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 702,
+        "list_name": "小米小爱老师",
+        "list_price": 489,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e3fb0886fdb13e5ae784b9713b9a0038.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 703,
+        "list_name": "小米米家智能门锁",
+        "list_price": 1299,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5630aa997c82409ee33b2814c7eb2244.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 704,
+        "list_name": "小米小爱触屏音箱",
+        "list_price": 299,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/f6e585a4bf5c0f744ca60f19ecd6fadf.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 705,
+        "list_name": "小爱万能遥控板",
+        "list_price": 1799,
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/df136199221a23299bc5348f37230a86.jpg?thumb=1&w=200&h=138"
+      },
+      {
+        "list_id": 706,
+        "list_name": "查看全部",
+        "list_price": "智能硬件",
+        "list_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c1016ddffd2ac5808c4bebcdbefd413a.jpg?thumb=1&w=200&h=138"
+      }
+    ]
   }
 ]
